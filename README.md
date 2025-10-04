@@ -25,7 +25,7 @@ The inputs from the ISO connector on the back of the radio go to an amplifier wi
 
 ![20251004_143940151](https://github.com/user-attachments/assets/fed0f334-0e5a-49b8-9ca1-df0a924c7694)
 
-When MUTE is low on the back of the radio, it automatically switches the inputs of the ASIC to those we wired up. However, while a track change is in progress, no audio plays, and the module will pull MUTE high. This is rather annoying, so a delay circuit will provide enough time to keep the radio in phone mode. These values worked for me; if you experience problems, increase the capacitor's or the 470k resistor's value. The diode I sued is a generic schottky.
+When MUTE is low on the back of the radio, it automatically switches the inputs of the ASIC to those we wired up. However, while a track change is in progress, no audio plays, and the module will pull MUTE high which is 3.3V, same for the radio so no level shifting is required. This is rather annoying, so a delay circuit will provide enough time to keep the radio in phone mode. These values worked for me; if you experience problems, increase the capacitor's or the 470k resistor's value. The diode I sued is a generic schottky.
 
 [The circuit](https://tinyurl.com/25b7keyt):
 
